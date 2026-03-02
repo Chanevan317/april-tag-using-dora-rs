@@ -1,0 +1,7 @@
+{"timestamp":"2026-03-02T09:41:15.597664Z","level":"INFO","fields":{"message":"","name":"MeterProvider.GlobalSet","message":"Global meter provider is set. Meters can now be created using global::meter() or global::meter_with_scope()."},"target":"opentelemetry"}
+Traceback (most recent call last):
+  File "/home/zuru-ubuntu/Documents/Chan/confidence_bot/apriltag/apriltag/main.py", line 36, in <module>
+    rvec = pose[0]  # rotation vector/matrix
+           ^^^^
+NameError: name 'pose' is not defined
+{"timestamp":"2026-03-02T09:41:19.101195Z","level":"WARN","fields":{"message":"timeout while waiting for event stream thread"},"target":"dora_node_api::event_stream::thread"}

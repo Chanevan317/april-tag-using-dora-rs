@@ -1,0 +1,20 @@
+nodes:
+  - id: camera
+    path: camera/camera/main.py
+    inputs:
+      tick: dora/timer/millis/100
+    outputs:
+      - image
+
+  - id: apriltag
+    path: apriltag/apriltag/main.py
+    inputs:
+      image: camera/image
+    outputs:
+      - bbox
+
+  - id: plot
+    path: plot/plot/main.py
+    inputs:
+      image: camera/image
+      bbox: apriltag/bbox
