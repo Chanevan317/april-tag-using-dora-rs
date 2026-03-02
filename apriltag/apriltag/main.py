@@ -14,7 +14,7 @@ detector = apriltag.apriltag(
     refine_edges=True,
 )
 
-tagsize = 0.2
+tagsize = 0.055
 
 fx, fy = 600.0, 600.0
 cx, cy = 320.0, 240.0
