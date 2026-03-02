@@ -1,8 +1,0 @@
-{"timestamp":"2026-03-02T09:29:35.480112Z","level":"INFO","fields":{"message":"","name":"MeterProvider.GlobalSet","message":"Global meter provider is set. Meters can now be created using global::meter() or global::meter_with_scope()."},"target":"opentelemetry"}
-Traceback (most recent call last):
-  File "/home/zuru-ubuntu/Documents/Chan/confidence_bot/apriltag/apriltag/main.py", line 32, in <module>
-    id = dets["id"]             # the decoded tag ID
-         ~~~~^^^^^^
-TypeError: tuple indices must be integers or slices, not str
-{"timestamp":"2026-03-02T09:29:42.280668Z","level":"WARN","fields":{"message":"timeout while waiting for event stream thread"},"target":"dora_node_api::event_stream::thread"}
-{"timestamp":"2026-03-02T09:29:42.281370Z","level":"WARN","fields":{"message":"timeout: node finished, but token DropToken(019cade1-c89b-7f26-b492-7e5a21cbaafa) was still not dropped after 1s -> ignoring it"},"target":"dora_node_api::event_stream::thread"}
